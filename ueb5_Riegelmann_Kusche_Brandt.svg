@@ -128,4 +128,10 @@
     <animateTransform attributeName="transform" type="rotate" from="0 1700 90" to="360 1700 90" dur="4" repeatCount="indefinite" />
   </polygon>
 
+  <polygon id="shootingstar"
+    points="150.0,100.0 123.1,109.6 135.4,135.4 109.6,123.1 100.0,150.0 90.4,123.1 0,135.4 35,109.6 10.0,100.0 35.9,90.0 1.6,64.6 90.4,76.9 100.0,50.0 109.6,76.9 135.4,64.6 123.1,90.4 "
+    transform="rotate(-25 60 60)" fill="#ffd900">
+    <animateMotion dur="1.5s" values="-200, 400; 1500,-300;" repeatCount="indefinite" />
+  </polygon>
+
 </svg>
